@@ -1,0 +1,85 @@
+nav{
+    display: flex;
+    padding: 8px 24px;
+    justify-content: space-between;
+}
+
+.menu svg{
+    padding: 8px 12px;
+}
+
+.menu img{
+    width: 2.12rem;
+    height: 2.12rem;
+    border: 1px solid #000000;
+    border-radius: 50%;
+}
+
+.search{
+    padding: 8px 0;
+}
+
+main{
+    margin: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+#main{
+    margin-left: 4rem;
+    margin-right: 2rem;
+}
+
+.menu_inscritos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem auto;
+}
+
+main button{
+    width: 9.94rem;
+    height: 2.5rem;
+    color: #ffffff;
+    background-color: #CC0000;
+    border-radius: 0.12rem;
+    text-transform: uppercase;
+    border: none;
+    font-family: "roboto-bold", sans-serif;
+    font-size: 0.87rem;
+}
+
+main .menu_inscritos img{
+    width: 2.62rem;
+    height: 2.62rem;
+}
+
+main .menu_action{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+main .menu_action svg{
+    padding-right: 0.5rem;
+}
+
+.side_body{
+ display: flex;
+ flex-direction: column;
+ height: auto;
+}
+
+.side{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+
+
+.side_text{  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 1rem;
+    width: 12.25rem;
+}
